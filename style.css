@@ -1,7 +1,7 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left; /* Change text-align to left for left justification */
 }
 
 h1 {
@@ -15,4 +15,27 @@ p {
 img {
     width: 40em;
     max-width: 90%;
+}
+
+/* Add a class to the project divs for styling */
+.project {
+    text-align: left; /* Left justify project details */
+}
+
+/* Style the work experience section to start a new line at every dash */
+#experience {
+    text-align: left;
+}
+
+#experience p {
+    margin: 0.5em 0; /* Adjust margin for better spacing between lines */
+}
+
+#experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+#experience li::before {
+    content: "\2014\00a0"; /* Add an em dash and a non-breaking space before each list item */
 }
