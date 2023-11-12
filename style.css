@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    text-align: left; /* Change text-align to left for left justification */
 }
 
 h1 {
@@ -17,9 +16,9 @@ img {
     max-width: 90%;
 }
 
-/* Add a class to the project divs for styling */
-.project {
-    text-align: left; /* Left justify project details */
+/* Left justify project details */
+#projects .project {
+    text-align: left;
 }
 
 /* Style the work experience section to start a new line at every dash */
